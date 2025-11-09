@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #f5f5f5;
+  background: #0d0d0d;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: #111;
+  color: #00bfa5;
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bfa5;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: #f5f5f5;
+  font-weight: 500;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #00bfa5;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1600x600/000000/00bfa5?text=BiteBuddy+Food+Delivery') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00bfa5;
+}
+
+.search-bar {
+  margin-top: 1rem;
+}
+
+.search-bar input {
+  padding: 0.7rem;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+  background: #222;
+  color: #f5f5f5;
+}
+
+.search-bar button {
+  padding: 0.7rem 1rem;
+  border: none;
+  background: #00bfa5;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #00a38e;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00bfa5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  color: #00bfa5;
+}
+
+.card p {
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #1a1a1a;
+  color: #f5f5f5;
+}
+
+form button {
+  padding: 0.7rem;
+  border: none;
+  background: #00bfa5;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #009e8a;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+footer h3, footer h4 {
+  color: #00bfa5;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+  .search-bar input {
+    width: 80%;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -7,8 +7,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  color: #f5f5f5;
-  background: #0d0d0d;
+  color: white;
+  background: black;
 }
 
 a {
@@ -23,8 +23,8 @@ a {
 }
 
 header {
-  background: #111;
-  color: #00bfa5;
+  background: #111111;
+  color: lightgreen;
   padding: 1rem 0;
 }
 
@@ -37,7 +37,7 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #00bfa5;
+  color: cyan;
 }
 
 nav ul {
@@ -56,11 +56,10 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: #00bfa5;
+  color: white;
 }
 
 .hero {
-  background: url('https://via.placeholder.com/1600x600/000000/00bfa5?text=BiteBuddy+Food+Delivery') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 6rem 1rem;
@@ -69,7 +68,7 @@ nav ul li a:hover {
 .hero-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #00bfa5;
+  color: beige;
 }
 
 .search-bar {
@@ -81,8 +80,8 @@ nav ul li a:hover {
   width: 250px;
   border: none;
   border-radius: 4px;
-  background: #222;
-  color: #f5f5f5;
+  background: #3b3a3a;
+  color: white;
 }
 
 .search-bar button {
@@ -96,7 +95,7 @@ nav ul li a:hover {
 }
 
 .search-bar button:hover {
-  background: #00a38e;
+  background: grey;
 }
 
 section {
@@ -131,7 +130,7 @@ section {
 
 .card h3 {
   margin: 1rem 0 0.5rem;
-  color: #00bfa5;
+  color: wheat;
 }
 
 .card p {
@@ -157,7 +156,7 @@ form input, form textarea {
 form button {
   padding: 0.7rem;
   border: none;
-  background: #00bfa5;
+  background: lightblue;
   color: white;
   border-radius: 5px;
   font-size: 1rem;
@@ -165,7 +164,7 @@ form button {
 }
 
 form button:hover {
-  background: #009e8a;
+  background: gray;
 }
 
 footer {
@@ -184,7 +183,7 @@ footer {
 }
 
 footer h3, footer h4 {
-  color: #00bfa5;
+  color: whitesmoke;
 }
 
 footer ul {

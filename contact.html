@@ -7,32 +7,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <h1 class="logo">BiteBuddy</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-      </nav>
+
+<header>
+  <div class="container nav">
+    <h1 class="logo">BiteBuddy</h1>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container" style="margin-top: 2.5rem;">
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="contact-grid">
+
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p style="margin-top: .8rem;">We'd love to hear from you.</p>
+
+      <p style="margin-top: 1.2rem;"><strong>Email:</strong> bitebuddy84@gmail.com</p>
+      <p><strong>Phone:</strong> +91 9352264335</p>
+      <p><strong>Location:</strong> New Delhi, India</p>
     </div>
-  </header>
 
-  <section class="container contact">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button>Send Message</button>
+      </form>
+    </div>
 
-  <footer>
-    <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
-  </footer>
+  </div>
+</section>
+
+<footer>
+  <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
+</footer>
+
 </body>
 </html>

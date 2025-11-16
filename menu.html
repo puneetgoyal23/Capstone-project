@@ -7,32 +7,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <h1 class="logo">BiteBuddy</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html" class="active">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section class="container">
-    <h2 class="page-title">Our Menu</h2>
-    <div class="grid">
-      <div class="card"><h3>Margherita Pizza</h3><p>₹299</p></div>
-      <div class="card"><h3>Cheese Burger</h3><p>₹199</p></div>
-      <div class="card"><h3>Paneer Tikka</h3><p>₹249</p></div>
-      <div class="card"><h3>Hakka Noodles</h3><p>₹199</p></div>
-    </div>
-  </section>
+<header>
+  <div class="container nav">
+    <h1 class="logo">BiteBuddy</h1>
 
-  <footer>
-    <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
-  </footer>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+  <h2 class="section-title">Our Menu</h2>
+
+  <div class="grid">
+
+    <div class="card food hover">
+      <img src="pizza.webp" alt="Pizza">
+      <h3>Paneer Pizza</h3>
+      <p>₹299</p>
+    </div>
+
+    <div class="card food hover">
+      <img src="cheeseburger.jpg" alt="Burger">
+      <h3>Cheese Burger</h3>
+      <p>₹199</p>
+    </div>
+
+    <div class="card food hover">
+      <img src="paneer tikka .jpg" alt="Paneer Tikka">
+      <h3>Paneer Tikka</h3>
+      <p>₹249</p>
+    </div>
+
+    <div class="card food hover">
+      <img src="noodles.avif" alt="Hakka Noodles">
+      <h3>Hakka Noodles</h3>
+      <p>₹199</p>
+    </div>
+
+    <div class="card food hover">
+      <img src="Cold Coffee.jpg" alt="Cold Coffee">
+      <h3>Cold Coffee</h3>
+      <p>₹149</p>
+    </div>
+
+    <div class="card food hover">
+      <img src="Mocktail.jpg" alt="Mocktail Drink">
+      <h3>Mocktail</h3>
+      <p>₹179</p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
+</footer>
+
 </body>
 </html>

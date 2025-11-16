@@ -7,28 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <h1 class="logo">BiteBuddy</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section class="container about">
-    <h2>About BiteBuddy</h2>
-    <p>BiteBuddy is a fast and reliable food delivery service that connects people with their favourite restaurants. Our mission is to deliver fresh and delicious meals to your doorstep in minutes.</p>
-    <p>We partner with local eateries, ensuring quality and hygiene while supporting small businesses. Whether it’s breakfast, lunch, or dinner — we bring the taste you love, right to you!</p>
-  </section>
+<header>
+  <div class="container nav">
+    <h1 class="logo">BiteBuddy</h1>
 
-  <footer>
-    <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
-  </footer>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container about fade-section">
+  <h2 class="section-title">About BiteBuddy</h2>
+
+  <p>BiteBuddy is a fast and reliable food delivery service connecting customers with their favorite restaurants.</p>
+  <p>We ensure quality, hygiene, and timely delivery, supporting both large and local eateries.</p>
+  <p>Breakfast, lunch, or dinner - BiteBuddy brings the best flavors straight to your doorstep.</p>
+</section>
+
+<footer>
+  <p class="copy">© 2025 BiteBuddy. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
